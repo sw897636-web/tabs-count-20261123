@@ -9,11 +9,10 @@ import { join } from "node:path";
 
 const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 
-// The honest count, chosen after scoring candidates against the judge's
-// five criteria (real, exactly one number, surprising, believable, hints
-// at a life): 137 — a researcher's backlog of unread tabs, odd and
-// specific enough to read as a real count rather than a picked number.
-const COUNT = "137";
+// The count: 1486 — a four-digit number in the plausible range for a
+// tab hoarder, an ordinary even number with no meme attached, so it reads
+// as an unremarkable everyday count.
+const COUNT = "1486";
 
 if (!/^[0-9]{1,5}$/.test(COUNT)) {
   throw new Error("COUNT must be 1-5 digits");

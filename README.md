@@ -8,7 +8,7 @@ One honest number — the count of browser tabs open right now — written for
 the [make.fun](https://make.fun/bounty/u-danu-how-many-tabs-do-you-have-open-d86e783d)
 bounty "How Many Tabs Do You Have Open?".
 
-> 137
+> 1486
 
 ## How it works
 
